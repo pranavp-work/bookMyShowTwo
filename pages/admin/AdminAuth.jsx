@@ -11,11 +11,10 @@ function AdminAuth() {
             <h5>Admin Login</h5>
 
             <div className='container p-3 d-flex justify-content-center align-items-center flex-column shadow'>
-              <input type="email" className='p-1 w-50' placeholder="enter email ID" />
+              <input type="text" className='p-1 w-50' placeholder="enter admin ID" />
               <input type="password" className='p-1 mt-3 w-50' placeholder="enter password" />
               <button className='btn btn-outline-success px-3 py-1 mt-3 w-50'>Login</button>
-              {/* on successful authentication, route to home */}
-              {/* login success => to UserHome page */}
+              {/* on successful authentication, route to Admin Dashboard */}
             </div>
 
           </div>

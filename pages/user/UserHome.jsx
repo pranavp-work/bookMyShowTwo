@@ -39,7 +39,7 @@ function UserHome() {
               </div>
               <div className="col-md-6"></div>
               <div className="col-md-3">
-                <Link to={'/UpcomingMovies'} style={{textDecorationLine: 'none'}}><p className='text-danger'>Explore coming movies</p></Link>
+                <Link to={'/UpcomingMovies'} style={{textDecorationLine: 'none'}}><p className='text-danger'>Explore upcoming movies</p></Link>
               </div>
             </div>
 
