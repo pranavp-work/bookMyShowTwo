@@ -49,8 +49,9 @@ function UserHeader() {
           <div className="col-md-1">
             < SelectCity />
           </div>
-          <div className="col-md-1">
-            <button className='border-0' onClick={handleShow}>Hi, Guest</button>
+          <div className="col-md-1 d-flex flex-row">
+            <img src="../../src/assets/images/profilePictureEmpty.jpg" alt="" width="25px" height="25px" />
+            <button className='border-0 bg-white' onClick={handleShow}>Hi, Guest</button>
 
             <Modal show={show} onHide={handleClose}>
               <Modal.Header closeButton>
@@ -61,9 +62,10 @@ function UserHeader() {
                 <Link to={'/ProfileFunctionality'}><button className="btn btn-outline-primary" onClick={handleClose}>
                   Go to profile
                 </button></Link>
-                <Button variant="danger" onClick={handleClose} className="ms-3">
+                <Link to={'/UserAuthentication'}><Button variant="danger" onClick={handleClose} className="ms-3">
                   Logout
-                </Button>
+                  {/* on logout, route to userAuth */}
+                </Button></Link>
                 </div>
               </Modal.Body>
             </Modal>
