@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function RunningMovies() {
     return (
         <>
-            <div className="row mt-5">
+            <div className="row mt-5 mb-5">
                 <div className="col-md-3">
                     <Link to={'/MovieDetails'}><Card style={{ width: '100%' }}>
                         <Card.Img variant="top" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/moana-2-et00387901-1732535881.jpg" />
