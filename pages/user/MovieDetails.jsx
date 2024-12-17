@@ -24,12 +24,12 @@ function MovieDetails() {
                 <div className="container d-flex justify-content-center align-items-center" style={{ height: '500px' }}>
                     {/* <img src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/listing/xxlarge/moana-2-et00387901-1732535881.jpg" className='w-100 h-100' alt="" style={{ objectFit: 'fill', height: '250px' }} /> */}
                     <div className="row" style={{ height: '250px' }}>
-                        <div className="col-md-3">
+                        <div className="col-md-3 col-sm-6">
                             <Card style={{ width: '100%' }}>
-                                <Card.Img variant="top" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/moana-2-et00387901-1732535881.jpg" className='w-100 h-75' />
+                                <Card.Img variant="top" src="https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/moana-2-et00387901-1732535881.jpg" className='w-100 h-75 img-fluid' />
                             </Card>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-4 col-sm-6">
                             <h2>Moana 2</h2>
                             <p>2D
                                 ,
@@ -69,8 +69,8 @@ function MovieDetails() {
                                 </Modal.Body>
                             </Modal>
                         </div>
-                        <div className="col-md-3"></div>
-                        <div className="col-md-2">
+                        <div className="col-md-3 col-sm-6"></div>
+                        <div className="col-md-2 col-sm-6">
                             <button className='bg-dark text-light p-2 w-50'>Share</button>
                         </div>
                     </div>

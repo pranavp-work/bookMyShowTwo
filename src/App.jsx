@@ -11,6 +11,7 @@ import CartFunctionality from './../pages/user/CartFunctionality';
 import ProfileFunctionality from './../pages/user/ProfileFunctionality';
 import { useState } from 'react';
 import UpcomingMoviesSection from '../pages/user/UpcomingMoviesSection';
+import UserAuth from './../pages/user/UserAuth';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Route path='/CartFunctionality' element={< CartFunctionality />}></Route>
         <Route path='/ProfileFunctionality' element={< ProfileFunctionality />}></Route>
         <Route path='/UpcomingMovies' element={< UpcomingMoviesSection />}></Route>
+        <Route path='/UserAuthentication' element={< UserAuth />}></Route>
       </Routes>
       <UserFooter />
     </>
