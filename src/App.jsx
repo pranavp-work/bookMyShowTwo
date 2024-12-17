@@ -12,6 +12,8 @@ import ProfileFunctionality from './../pages/user/ProfileFunctionality';
 import { useState } from 'react';
 import UpcomingMoviesSection from '../pages/user/UpcomingMoviesSection';
 import UserAuth from './../pages/user/UserAuth';
+import AdminAuth from './../pages/admin/AdminAuth';
+import AdminHome from './../pages/admin/AdminHome';
 
 
 function App() {
@@ -23,6 +25,8 @@ function App() {
     <>
       <UserHeader />
       <Routes>
+
+        {/* User */}
         <Route path='/' element={< UserHome />}></Route>
         <Route path='/MovieDetails' element={< MovieDetails />}></Route>
         <Route path='/SelectTheatres' element={< SelectTheatre />}></Route>
@@ -31,6 +35,11 @@ function App() {
         <Route path='/ProfileFunctionality' element={< ProfileFunctionality />}></Route>
         <Route path='/UpcomingMovies' element={< UpcomingMoviesSection />}></Route>
         <Route path='/UserAuthentication' element={< UserAuth />}></Route>
+
+        {/* Admin */}
+        <Route path='/AdminAuthentication' element={< AdminAuth />}></Route>
+        <Route path='/AdminDashboard' element={< AdminHome />}></Route>
+
       </Routes>
       <UserFooter />
     </>
