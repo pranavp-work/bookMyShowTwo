@@ -21,16 +21,16 @@ function UserHome() {
               <p>Format</p>
               <p>Clear</p>
             </div>
-            <button className='border-danger text-danger w-100'>Browse by cinemas</button>
+            <button className='border-danger text-danger w-100 bg-white rounded-2'>Browse by cinemas</button>
           </div>
           <div className="col-md-9">
             <h2>Movies in Kochi</h2>
             <div>
-              <button className='rounded-5 border-1 border-grey text-danger ms-1'>English</button>
-              <button className='rounded-5 border-1 border-grey text-danger ms-1'>Malayalam</button>
-              <button className='rounded-5 border-1 border-grey text-danger ms-1'>Hindi</button>
-              <button className='rounded-5 border-1 border-grey text-danger ms-1'>Tamil</button>
-              <button className='rounded-5 border-1 border-grey text-danger ms-1'>Telugu</button>
+              <button className='rounded-5 border-1 border-grey bg-white text-danger ms-1'>English</button>
+              <button className='rounded-5 border-1 border-grey bg-white text-danger ms-1'>Malayalam</button>
+              <button className='rounded-5 border-1 border-grey bg-white text-danger ms-1'>Hindi</button>
+              <button className='rounded-5 border-1 border-grey bg-white text-danger ms-1'>Tamil</button>
+              <button className='rounded-5 border-1 border-grey bg-white text-danger ms-1'>Telugu</button>
             </div>
 
             <div className="row shadow mt-5 p-3">
@@ -39,7 +39,7 @@ function UserHome() {
               </div>
               <div className="col-md-6"></div>
               <div className="col-md-3">
-                <Link to={'/UpcomingMovies'}><p className='text-danger'>Explore coming movies</p></Link>
+                <Link to={'/UpcomingMovies'} style={{textDecorationLine: 'none'}}><p className='text-danger'>Explore coming movies</p></Link>
               </div>
             </div>
 

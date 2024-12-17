@@ -10,7 +10,7 @@ import SeatSelection from './../pages/user/SeatSelection';
 import CartFunctionality from './../pages/user/CartFunctionality';
 import ProfileFunctionality from './../pages/user/ProfileFunctionality';
 import { useState } from 'react';
-import UpcomingMoviesList from './../components/user/UpcomingMoviesList';
+import UpcomingMoviesSection from '../pages/user/UpcomingMoviesSection';
 
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
         <Route path='/SeatSelection' element={< SeatSelection />}></Route>
         <Route path='/CartFunctionality' element={< CartFunctionality />}></Route>
         <Route path='/ProfileFunctionality' element={< ProfileFunctionality />}></Route>
-        <Route path='/UpcomingMovies' element={< UpcomingMoviesList />}></Route>
+        <Route path='/UpcomingMovies' element={< UpcomingMoviesSection />}></Route>
       </Routes>
       <UserFooter />
     </>
